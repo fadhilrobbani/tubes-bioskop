@@ -32,26 +32,6 @@ class Mhome extends CI_Controller
         $this->load->view('templates/form_register');
     }
 
-    public function homedeskfilm1(){
-        $this->load->view('templates/mhomedeskfilm1');
-    }
-
-    public function homedeskfilm2(){
-        $this->load->view('templates/mhomedeskfilm2');
-    }
-    public function homedeskfilm3(){
-        $this->load->view('templates/mhomedeskfilm3');
-    }
-    public function homedeskfilm4(){
-        $this->load->view('templates/mhomedeskfilm4');
-    }
-    public function homedeskfilm5(){
-        $this->load->view('templates/mhomedeskfilm5');
-    }
-     public function homedeskfilm6(){
-        $this->load->view('templates/mhomedeskfilm6');
-    }
-
      public function film()
     {
         $data['tayang']=$this->tayang_model->ambil_data();   

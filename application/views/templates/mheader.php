@@ -50,5 +50,5 @@
 </nav>
 
   <div class="tagline-upper text-center text-heading text-shadow text-white mt-5 d-none d-lg-block">MYBIOSKOP</div>
-  <div class="tagline-lower text-center text-expanded text-shadow text-uppercase text-white mb-5 d-none d-lg-block">BENGKULU | Jl.PUTUS ASA | 0899434949394</div>
+  <div class="tagline-lower text-center text-expanded text-shadow text-uppercase text-white mb-5 d-none d-lg-block">BENGKULU | Jl. Buntu | 088938389120</div>
   

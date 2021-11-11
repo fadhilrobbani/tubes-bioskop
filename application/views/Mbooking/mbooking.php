@@ -6,8 +6,7 @@
     <h2 class="text-center text-lg text-uppercase my-0">FORM PEMESANAN TIKET</h2>
 
         <hr class="divider"> 
-
-        <?= $this->session->flashdata('message') ?> 
+				<?= $this->session->flashdata('message') ?> 
         <script>
           function tampilkan(){
             var hari=document.getElementById("form1").hari.value;
@@ -221,13 +220,14 @@
           placeholder="00:00" required value="<?php echo $jam;?>">
         </div>
 
-        <input type="hidden" name="id_booking"  value="<?php echo $id_booking;?>">
+        <input id="klik" type="hidden" name="id_booking"  value="<?php echo $id_booking;?>">
         <button class= "btn btn-primary" type="submit"><?php echo "$button"; ?></button>
       </form>
     </div>
   </div>
 </div>
 </div>
+
 
 <div class="bg-faded p-4 my-4">
 
