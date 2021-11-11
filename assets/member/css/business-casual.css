@@ -18,6 +18,14 @@ body {
 	justify-content: center;
 }
 
+.col-md-4:hover{
+	transform: scale(1.06);
+	-ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+	transition: transform .5s ease;
+}
+
+
 form{
 	text-align: center;
 	
