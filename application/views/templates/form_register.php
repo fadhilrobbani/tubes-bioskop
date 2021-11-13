@@ -19,8 +19,9 @@
 					<input type="password" name="password" class="form-control"
 					placeholder="Masukkan Password " required value="<?php echo $password;?>">
 				</div>
-
+		
 				<button class="btn btn-lg btn-success btn-block" type="submit"><?php echo "$button"; ?></button>
+				
 			</form>
 </div>
 
