@@ -33,7 +33,7 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="<?php echo ($_SERVER['PATH_INFO']=="/Mhome/home")? "nav-link active":"nav-link" ?>" href="<?php echo base_url()."index.php/Mhome/home"; ?>">Home</a>
+          <a class="<?php echo ($_SERVER['PATH_INFO']=="/Mhome/home" || $_SERVER['PATH_INFO']=="/mhome/home" )? "nav-link active":"nav-link" ?>" href="<?php echo base_url()."index.php/Mhome/home"; ?>">Home</a>
         </li>
         <li class="nav-item">
           <a class="<?php echo ($_SERVER['PATH_INFO']=="/Mhome/film")? "nav-link active":"nav-link" ?>" href="<?php echo base_url()."index.php/Mhome/film"; ?>">Film Tayang</a>
